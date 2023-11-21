@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Set background color to black -->
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Set background color to black -->
+
+    <TextView
+        android:id="@+id/textViewFoundationalKnowledgeExam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foundational Knowledge Exam"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextFoundationalKnowledgeExamDate"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewColdWeatherOperations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cold Weather Operations"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewFoundationalKnowledgeExam"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextColdWeatherOperations"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewFoundationalKnowledgeExam"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewMountainEnvironmentalTraining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mountain Environmental Training"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewColdWeatherOperations"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextMountainEnvironmentalTraining"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewColdWeatherOperations"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewHotWeatherOperations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hot Weather Operations"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewMountainEnvironmentalTraining"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextHotWeatherOperations"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewMountainEnvironmentalTraining"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAltitudeAndPhysiology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altitude and Physiology"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewHotWeatherOperations"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextAltitudeAndPhysiology"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewHotWeatherOperations"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewSpatialDisorientation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Spatial Disorientation"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewAltitudeAndPhysiology"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSpatialDisorientation"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewAltitudeAndPhysiology"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewStressAndFatigue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stress and Fatigue"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewSpatialDisorientation"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextStressAndFatigue"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewSpatialDisorientation"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewExogenousFactors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exogenous Factors"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewStressAndFatigue"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextExogenousFactors"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewStressAndFatigue"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewHGU56P"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HGU-56P"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewExogenousFactors"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextHGU56P"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewExogenousFactors"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewFlightClothing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flight Clothing"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewHGU56P"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextFlightClothing"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewHGU56P"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewIntroductionToAirWarrior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduction to Air Warrior"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewFlightClothing"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextIntroductionToAirWarrior"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewFlightClothing"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewSKRAMBag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SKRAM Bag"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewIntroductionToAirWarrior"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextSKRAMBag"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewIntroductionToAirWarrior"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewFirstAidKits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Aid Kits"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewSKRAMBag"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextFirstAidKits"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewSKRAMBag"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/textViewEmergencyLocatorTransmitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency Locator Transmitter"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewFirstAidKits"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextEmergencyLocatorTransmitter"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewFirstAidKits"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCBATO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CBAT-O"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewEmergencyLocatorTransmitter"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextCBATO"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewEmergencyLocatorTransmitter"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewROCV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROC-V"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewCBATO"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextROCV"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewCBATO"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewThreatAwareness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Threat Awareness"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewROCV"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextThreatAwareness"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewROCV"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTacticsTask2900"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tactics Task 2900"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewThreatAwareness"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTactics2900"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewThreatAwareness"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewMissionPlanning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mission Planning"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewTacticsTask2900"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextMissionPlanning"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewTacticsTask2900"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewCBATC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CBAT-C"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/textViewMissionPlanning"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/editTextCBATC"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:background="@drawable/green_outline"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textViewMissionPlanning"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewDayFlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Day Flight"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/textViewCBATC"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextDayFlight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:background="@drawable/green_outline"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textViewCBATC"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewNVGFlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last NVG Flight"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/textViewDayFlight"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextNVGFlight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:background="@drawable/green_outline"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textViewDayFlight"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewHoist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Hoist"
+            android:textColor="#FFFFFF"
+            android:layout_below="@id/textViewNVGFlight"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/editTextHoist"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:background="@drawable/green_outline"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/textViewNVGFlight"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp" />
+
+
+    <Button
+        android:id="@+id/btnHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="22sp"
+        android:textColor="#00FF00"
+        android:background="@drawable/green_outline"
+        android:layout_below="@id/textViewHoist" />
+
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Set background color to black -->
+
+    <TextView
+        android:id="@+id/tvInitialFuelLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Initial Fuel"
+        android:textSize="22sp"
+        android:textColor="#00FF00" /> <!-- Set text color to green -->
+
+    <EditText
+        android:id="@+id/etInitialFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvInitialFuelLabel"
+        android:inputType="numberDecimal"
+        android:textColor="#00FF00"
+        android:background="@drawable/green_outline"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/tvEndFuelLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etInitialFuel"
+        android:text="End Fuel"
+        android:textSize="22sp"
+        android:textColor="#00FF00" />
+
+    <EditText
+        android:id="@+id/etEndFuel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEndFuelLabel"
+        android:inputType="numberDecimal"
+        android:textColor="#00FF00"
+        android:background="@drawable/green_outline"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/tvTimeBetweenChecksLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEndFuel"
+        android:text="Time Between Checks (in minutes)"
+        android:textSize="22sp"
+        android:textColor="#00FF00" />
+
+    <EditText
+        android:id="@+id/etTimeBetweenChecks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTimeBetweenChecksLabel"
+        android:text="15"
+        android:inputType="numberDecimal"
+        android:textColor="#00FF00"
+        android:background="@drawable/green_outline"
+        android:padding="12dp"/>
+
+    <TextView
+        android:id="@+id/tvBurnRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etTimeBetweenChecks"
+        android:textColor="#00FF00"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/tvFuelBingo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvBurnRate"
+        android:textSize="22sp"
+        android:textColor="#00FF00" />
+
+    <TextView
+        android:id="@+id/tvFuelReserve20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFuelBingo"
+        android:textSize="22sp"
+        android:textColor="#00FF00" />
+
+    <TextView
+        android:id="@+id/tvFuelReserve30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvFuelReserve20"
+        android:textSize="22sp"
+        android:textColor="#00FF00" />
+
+</RelativeLayout>

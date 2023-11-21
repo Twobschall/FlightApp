@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#000000"> <!-- Set background color to black -->
+    <!-- Add your desired content for the home page here -->
+
+    <Button
+        android:id="@+id/btnPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00FF00"
+        android:textSize="20sp"
+        android:text="Fuel Check Calculator"
+        android:background="@drawable/green_outline"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnPage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPage1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#00FF00"
+        android:text="Tracker"
+        android:textSize="22sp"
+        android:background="@drawable/green_outline"
+        android:padding="8dp" />
+
+</RelativeLayout>
+
